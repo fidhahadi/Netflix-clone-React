@@ -1,17 +1,11 @@
-@media screen and (max-width:640px) {
-    .banner img {
-        width: 100% !important;
-        height: auto !important;
-        left: 0 !important;
-        top: 0 !important;
-    }
-    }
+
 
 
 .banner {
     background-size: cover;
     height: 448px;
     color: white;
+    object-fit: fill;
     
 }
 
