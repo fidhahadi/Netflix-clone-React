@@ -14,7 +14,7 @@ function RowPost(props) {
         console.log(response.data);
         setMovies(response.data.results)
       })
-    }, [])
+    }, [props.url])
     const opts = {
         height: '390',
         width: '100%',
@@ -27,7 +27,7 @@ function RowPost(props) {
         console.log(id);
         axios.get(`https://api.themoviedb.org/3/movie/${id}/videos?api_key=${API_KEY}`).then(response=>{
             console.log(response.data);
-            if(response.data.results.length != 0){
+            if(response.data.results.length !== 0){
                 seturlId(response.data.results[0])
             }else {
                 alert("no trailer");
