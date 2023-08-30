@@ -13,6 +13,23 @@ posters::-webkit-scrollbar{
 }
 
 .poster {
+    cursor: pointer;
     max-height: 300px;
     margin-right: 10px;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+
+.smallPoster:hover{
+    transform: scale(1.1);
+}
+.smallPoster {
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
