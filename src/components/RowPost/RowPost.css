@@ -4,6 +4,7 @@
 }
 .posters {
     display: flex;
+    gap: 20px;
     padding: 20px;
     overflow: scroll;
     overflow-y: hidden;
@@ -13,6 +14,7 @@ posters::-webkit-scrollbar{
 }
 
 .poster {
+    border-radius: 5px;
     cursor: pointer;
     max-height: 300px;
     margin-right: 10px;
@@ -27,6 +29,7 @@ posters::-webkit-scrollbar{
     transition: 0.5s;
 }
 .smallPoster {
+    border-radius: 5px;
     cursor: pointer;
     max-height: 150px;
     margin-right: 10px;
