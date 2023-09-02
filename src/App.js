@@ -5,11 +5,14 @@ import Banner from './components/Banner/Banner';
 import RowPost from './components/RowPost/RowPost';
 import {originals, action, comedy, romance, documentary, horror} from './urls'
 
+
+
 function App() {
   return (
    <>
    <NavBar />
    <Banner />
+
    <RowPost url={originals} title='Netflix Originals' />
    <RowPost url={action} title='Action' isSmall />
    <RowPost url={comedy} title = 'Comedy' isSmall />

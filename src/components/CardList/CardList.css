@@ -1,18 +1,4 @@
-html {
-    font-size: 10px;
-    font-family: helvetica;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #0d7074;
-    color: #daa520;
-  }
+
   
   p {
     font-size: 1.6rem
@@ -27,12 +13,7 @@ html {
     max-width: 1000px ;
     padding: 40px;
   }
-  
-  .title{
-    font-size: 6.4rem;
-    text-align:center;
-    font-family: 'Limelight', cursive;
-  }
+ 
   
   .form{
     display:grid;
@@ -84,10 +65,8 @@ html {
   }
   
   .card{
-    padding: 2rem 4rem;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #2C302E;
-    background-color: #cedad9;
     color: #2C302E;
     margin-bottom: 2rem;
   }
@@ -100,4 +79,10 @@ html {
   .card--image{
     margin: 0 auto;
     display:block;
+  }
+
+  * {
+    /* background-color: #2C302E; */
+    color: #fff;
+    margin: 0;
   }

@@ -34,11 +34,11 @@ export default function Search(){
   return(
     <>
     <form className="form" onSubmit={searchMovies}>
-      <label className="label" htmlFor="query">Movie Name</label>
       <input className="query search-button" type="text" name="query"
       placeholder="Search"
       value={query} onChange={(event) => setQuery(event.target.value)}/>
-      <button className="search-button" type="submit" ></button>
+      <button className="search-button" type="submit" >
+      </button>
     </form>
     <div className="card-list">
     {movies.filter(movie => movie.poster_path).map(movie => (
